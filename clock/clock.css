@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    }
+    
+body {
+    background-color: rgba(137, 72, 242, 0.912);
+    height: 100vh;
+    }
+    
+.container-clock {
+    /* 置中 */
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: 3px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    width: 340px;
+    padding: 10px;
+    border-radius: 40px;
+    transition: 0.5s;
+}
+
+.container-clock:hover{
+    background-color: rgba(171, 107, 220, 0.912);
+    color: rgba(255, 255, 255, 0.912);
+    box-shadow: 0 0 30px lightgreen;
+}
+/* 字體調整 */
+.time{
+    font-size: 50px;
+    font-weight: 100px;
+    text-align: center;
+}
+.date{
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+}
+#period{
+    font-size: 30px;
+}
